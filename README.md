@@ -3,13 +3,15 @@
 ![pic](https://github.com/AntonelloLeone/autonoleggio/blob/main/back.PNG)
 ![pic](https://github.com/AntonelloLeone/autonoleggio/blob/main/menuA.PNG)
 
-Partecipanti: Antonio Carosi, Luca Veroli, Antonello Leone
+Partecipanti: Antonio Carosi, Luca Veroli, Antonello Leone.
 Preliminarmente abbiamo sviluppato la struttura, ed in seguito diviso tutti i blocchi più
-elemetari tra noi, così da limitare i conflitti eventuali.
+elementari tra noi, così da limitare i conflitti eventuali.
 Il codice è estendibile e divide quanto più possibile l'interazione tra moduli, grazie anche all'utilizzo dei pattern DAO,Factory, MVC(sempiicato)
 
 
 Nota importante: nella cartella DB_MOCK ci sono i file txt che rendono piu veloce i test!
+Questi vanno copiati nella cartella in cui si trova il jar per avere almeno la possibilità di accesso per admin/batman!
+Di seguito le credenziali per gli accessi, se importati i file in DB_MOCK!
 ##        USERNAME - password
 MANAGER) ADMIN123 - ADMIN12%
 MANAGER) BATROOMS - BAT9999!
