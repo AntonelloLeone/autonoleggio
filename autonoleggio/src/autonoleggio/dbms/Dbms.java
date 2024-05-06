@@ -21,11 +21,11 @@ public class Dbms {
 		// set
 
 //	private static String basePAth = "C:\\Users\\Studente4.15\\eclipse-workspace\\autonoleggio\\src\\autonoleggio\\";
-		basePAth = getPath().replace("bin/", "").replace("/", "\\")+"src\\autonoleggio\\";
-		filenameAutomobili += basePAth + "automobili.txt"; 
-		filenameClienti += basePAth + "clienti.txt";
-		filenameManager += basePAth + "manager.txt";
-		filenameBatmobili += basePAth + "batmobili.txt";
+		basePAth = (new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath()).getParent());
+		filenameAutomobili += basePAth + "\\automobili.txt"; 
+		filenameClienti += basePAth + "\\clienti.txt";
+		filenameManager += basePAth + "\\manager.txt";
+		filenameBatmobili += basePAth + "\\batmobili.txt";
 
 	}
 	
