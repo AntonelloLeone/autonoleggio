@@ -1,6 +1,7 @@
 # autonoleggio
 ![pic](https://github.com/AntonelloLeone/autonoleggio/blob/main/Cover_prjJava.webp)
 ![pic](https://github.com/AntonelloLeone/autonoleggio/blob/main/back.PNG)
+![pic](https://github.com/AntonelloLeone/autonoleggio/blob/main/menuA.PNG)
 
 Partecipanti: Antonio Carosi, Luca Veroli, Antonello Leone
 Preliminarmente abbiamo sviluppato la struttura, ed in seguito diviso tutti i blocchi più
