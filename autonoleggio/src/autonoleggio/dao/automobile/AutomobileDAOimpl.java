@@ -181,7 +181,7 @@ public class AutomobileDAOimpl implements AutomobileDAO {
 	public List<Automobile> findByPrice(int i) {
 		List<Automobile> automobili = new ArrayList<>();
 		for (Automobile automobile : autonoleggio.getAutomobili()) {
-			if(automobile.getHourCost()==i) {
+			if(automobile.getHourCost()<=i) {
 				automobili.add(automobile);
 			}
 		}
